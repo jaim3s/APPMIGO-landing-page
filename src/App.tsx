@@ -8,6 +8,7 @@ import FAQ from './components/FAQ';
 import Download from './components/Download';
 import Footer from './components/Footer';
 import './utils/animations.css';
+import FloatingCTA from './components/FloatingCTA';
 
 function App() {
   // Update document title for SEO
@@ -34,6 +35,7 @@ function App() {
       <Testimonials />
       <FAQ />
       <Download />
+      <FloatingCTA />
       <Footer />
     </div>
   );

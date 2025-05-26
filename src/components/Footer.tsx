@@ -20,13 +20,13 @@ const Footer = () => {
               <a href="https://facebook.com" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="https://twitter.com" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Twitter">
+              <a href="https://x.com/AppMigo" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Twitter">
                 <Twitter size={20} />
               </a>
-              <a href="https://instagram.com" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Instagram">
+              <a href="https://www.instagram.com/appmigoo/" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
-              <a href="https://linkedin.com" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/app-migo-ba16a3365/" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -59,7 +59,7 @@ const Footer = () => {
               <li className="flex items-center">
                 <Smartphone size={16} className="mr-2" /> +57 313 805 2999
               </li>
-              <li>support@neivamov.com</li>
+              <li>appmigooo@gmail.com</li>
               <li>Neiva, Huila, Colombia</li>
             </ul>
           </div>
