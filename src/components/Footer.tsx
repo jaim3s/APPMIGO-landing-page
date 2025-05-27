@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Facebook, Twitter, Instagram, Linkedin, Smartphone } from 'lucide-react';
+import { Youtube, Twitter, Instagram, Linkedin, Smartphone } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -61,16 +61,40 @@ Respetamos estas licencias y agradecemos a la comunidad que hace posible el soft
               Hacer que el transporte en Neiva sea sencillo, seguro y accesible para todos.
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Facebook">
-                <Facebook size={20} />
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors duration-300"
+                aria-label="YouTube"
+              >
+                <Youtube size={20} />
               </a>
-              <a href="https://x.com/AppMigo" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Twitter">
+              <a
+                href="https://x.com/AppMigo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors duration-300"
+                aria-label="Twitter"
+              >
                 <Twitter size={20} />
               </a>
-              <a href="https://www.instagram.com/appmigoo/" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/appmigoo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors duration-300"
+                aria-label="Instagram"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/app-migo-ba16a3365/" className="text-gray-400 hover:text-white transition-colors duration-300" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/in/app-migo-ba16a3365/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors duration-300"
+                aria-label="LinkedIn"
+              >
                 <Linkedin size={20} />
               </a>
             </div>
@@ -129,10 +153,18 @@ Respetamos estas licencias y agradecemos a la comunidad que hace posible el soft
             <h3 className="text-lg font-semibold mb-4">Contacte con Nosotros</h3>
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-center">
-                <Smartphone size={16} className="mr-2" /> +57 313 805 2999
+                <Smartphone size={16} className="mr-2" />
+                <a href="https://wa.me/573138052999" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                  WhatsApp: +57 313 805 2999          
+                </a>
               </li>
-              <li>appmigooo@gmail.com</li>
+              <li>
+                <a href="mailto:appmigooo@gmail.com" className="hover:text-white">
+                  appmigooo@gmail.com
+                </a>
+              </li>
               <li>Neiva, Huila, Colombia</li>
+
             </ul>
           </div>
         </div>
