@@ -103,23 +103,23 @@ const AppPreview = () => {
                 </div>
                 
                 <div className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md">
-                  <h4 className="font-semibold text-gray-800 dark:text-gray-100 mb-2">Key App Features:</h4>
+                  <h4 className="font-semibold text-gray-800 dark:text-gray-100 mb-2">Características clave de la aplicación:</h4>
                   <ul className="space-y-2 text-gray-600 dark:text-gray-300">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-[#36a558] rounded-full mr-2"></span>
-                      Intuitive interface for all ages
+                      Interfaz intuitiva para todas las edades
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-[#36a558] rounded-full mr-2"></span>
-                      Fast booking process
+                      Proceso de reserva rápido
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-[#36a558] rounded-full mr-2"></span>
-                      Driver ratings and reviews
+                      Valoraciones y comentarios de los conductores
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-[#36a558] rounded-full mr-2"></span>
-                      24/7 customer support
+                      Atención al cliente 24 horas al día
                     </li>
                   </ul>
                 </div>

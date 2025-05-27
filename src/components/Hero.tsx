@@ -1,9 +1,17 @@
-import React from 'react';
 import { ArrowDown } from 'lucide-react';
 import AppStoreBadge from './ui/AppStoreBadge';
 import GooglePlayBadge from './ui/GooglePlayBadge';
+import React, { useState } from 'react';
 
 const Hero = () => {
+
+  const [clicked, setClicked] = useState(false);
+
+  const handleImageClick = () => {
+    setClicked(true);
+    setTimeout(() => setClicked(false), 300); // duración de la animación
+  };
+
   return (
     <section className="relative min-h-screen bg-gradient-to-b from-[#007550] to-[#36a558] text-white pt-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full">
@@ -24,7 +32,8 @@ const Hero = () => {
             </div>
             
             <div className="text-sm text-white/70 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
-              <p>Miles de residentes de Neiva confían en nosotros a diario</p>
+              <p>
+                Miles de residentes de Neiva confían en nosotros a diario. Únete a nuestra comunidad y descubre una forma más eficiente de moverte por la ciudad.</p>
             </div>
           </div>
           
@@ -32,9 +41,12 @@ const Hero = () => {
             <div className="relative w-64 sm:w-72 md:w-80 lg:w-96 h-auto">
               <div className="absolute inset-0 bg-black/20 -left-4 -top-4 rounded-3xl"></div>
               <img 
-                src="https://images.pexels.com/photos/6802042/pexels-photo-6802042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="NeivaMov App Preview" 
-                className="relative z-10 rounded-3xl shadow-2xl"
+                src="/images/example_app.png" 
+                alt="APPMIGO Ejemplo" 
+                onClick={handleImageClick}
+                className={`relative z-10 rounded-3xl shadow-2xl cursor-pointer transform transition-transform duration-300 ${
+                  clicked ? 'scale-95' : ''
+                }`}
               />
               <div className="absolute -bottom-4 -right-4 bg-white/20 blur-xl h-32 w-32 rounded-full"></div>
             </div>
