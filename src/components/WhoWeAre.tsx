@@ -43,8 +43,8 @@ const teamMembers = [
 ];
 
 const WhoWeAre = () => (
-  <section className="py-20 bg-gray-100 text-center">
-    <div className="max-w-6xl mx-auto px-4">
+  <section className="py-20 bg-gray-50 dark:bg-gray-900 text-center transition-colors duration-300">
+    <div className="max-w-6xl mx-auto px-4 text-gray-800 dark:text-gray-100">
       <h2 className="text-4xl font-bold mb-12">¿Quiénes Somos?</h2>
       <Swiper
         spaceBetween={20}
@@ -56,16 +56,16 @@ const WhoWeAre = () => (
       >
         {teamMembers.map((member, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-white p-6 rounded-xl shadow-lg transition duration-300 transform hover:scale-105 active:scale-95 hover:shadow-2xl cursor-pointer flex items-center gap-6 mx-auto max-w-2xl my-6">
+            <div className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-lg transition duration-300 transform hover:scale-105 active:scale-95 hover:shadow-2xl cursor-pointer flex items-center gap-6 mx-auto max-w-2xl my-6">
               <img
                 src={member.image}
-                alt={member.name}
+                alt={`Foto de ${member.name}`}
                 className="w-32 h-32 object-cover rounded-full"
               />
               <div className="text-left">
                 <h3 className="text-xl font-semibold">{member.name}</h3>
-                <p className="text-lg text-gray-600 mb-2">{member.role}</p>
-                <p className="text-gray-500 text-sm">{member.description}</p>
+                <p className="text-lg text-gray-600 dark:text-gray-300 mb-2">{member.role}</p>
+                <p className="text-gray-500 dark:text-gray-400 text-sm">{member.description}</p>
               </div>
             </div>
           </SwiperSlide>
