@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import './utils/animations.css';
 import FloatingCTA from './components/FloatingCTA';
 import Demo from './components/Demo';
+import WhoWeAre from './components/WhoWeAre';
 
 function App() {
   // Update document title for SEO
@@ -36,6 +37,7 @@ function App() {
       <Demo />
       <Testimonials />
       <FAQ />
+      <WhoWeAre />
       <Download />
       <FloatingCTA />
       <Footer />
