@@ -61,7 +61,7 @@ const Hero = () => {
       </div>
       
       <div
-        className="absolute bottom-0 left-0 w-full h-16 bg-white dark:bg-gray-900"
+        className="absolute bottom-0 left-0 w-full h-16 bg-gray-50 dark:bg-gray-900"
         style={{ clipPath: 'polygon(0 100%, 100% 100%, 100% 0)' }}
       ></div>
     </section>

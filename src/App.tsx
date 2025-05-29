@@ -9,6 +9,7 @@ import Download from './components/Download';
 import Footer from './components/Footer';
 import './utils/animations.css';
 import FloatingCTA from './components/FloatingCTA';
+import Demo from './components/Demo';
 
 function App() {
   // Update document title for SEO
@@ -32,6 +33,7 @@ function App() {
       <Hero />
       <Features />
       <AppPreview />
+      <Demo />
       <Testimonials />
       <FAQ />
       <Download />
