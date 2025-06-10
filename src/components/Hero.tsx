@@ -19,10 +19,10 @@ const Hero = () => {
           <div className="flex flex-col justify-center space-y-8">
             <div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
-                Transporte simple en Neiva
+                Transporte inteligente en Neiva
               </h1>
               <p className="text-xl sm:text-2xl opacity-80 mb-8 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}>
-                Navega por la ciudad con facilidad. Llega donde necesites de forma más rápida, segura e inteligente.
+                Navega por la ciudad con facilidad. Llega donde necesites de forma más rápida, segura e inteligente, con seguimiento en tiempo real, rutas optimizadas y pagos integrados.
               </p>
             </div>
             
